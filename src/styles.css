@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Inter:wght@300&family=Pacifico&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: gold;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.valid > p {
+  color: green;
+  font-weight: bold;
+}
+
+.invalid > p {
+  color: red;
+  font-weight: bold;
+}
+
+form,
+.heading {
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 1px 0.5px 0.5px 1px rgba(0, 0, 0, 0.15);
+  margin: 3px;
+  background-color: lightyellow;
+}
+
+input {
+  font-family: "Playfair Display SC", serif;
+  background-color: white;
+  padding: 8px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+.button:hover {
+  background: black(133, 133, 255);
+}
+
+.field:hover {
+  border-bottom: solid black;
+}
+
+.input {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
+
+.input > p {
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 0.9rem;
+  color: gray;
+  width: 75%;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 9rem;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.field {
+  border: none;
+  border-bottom: solid gray;
+  height: 20px;
+  width: 90%;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+*:focus {
+  outline: none;
+}
+h1 {
+  text-shadow: 3px 3px 0px #a59d9d;
+  color: rgb(117, 117, 117);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  width: 7rem;
+  height: 4rem;
+  margin-bottom: 10px;
+}
+
+.valid,
+.invalid {
+  font-size: 20px;
+}
